@@ -1,0 +1,139 @@
+:root {
+    /* font size */
+    --fs-sm: 14px;
+    --fs-xmd: 18px;
+    --fs-md: 32px;
+    --fs-lg: 28px;
+    --fs-xl: 30px;
+    --fs-xxl: 38px;
+    /* color */
+    --main: #0D0D0D;
+    --black-primery: #15231F;
+    --primery: #FFFFFF;
+    --nav-link: #CFE5F0;
+    --bg-color: #0073B1;
+    --nav-bg: #0576B3;
+    --golden: #F8B762;
+    --gray-dark: #3D3D3D;
+    --gray: #A4A4A4;
+    --gray-main: #CFCFCF;
+    --gray-primery: #C5C5C5;
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_xmd {
+    font-size: var(--fs-xmd);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
+
+.text_main {
+    color: var(--main);
+}
+
+.text_black_primery {
+    color: var(--black-primery);
+}
+
+.text_primery {
+    color: var(--primery);
+}
+
+.text_navLink {
+    color: var(--nav-link);
+}
+
+.text_bgColor {
+    color: var(--bg-color);
+}
+
+.text_NavBg {
+    color: var(--nav-bg);
+}
+
+.text_golden {
+    color: var(--golden);
+}
+
+.text_gray {
+    color: var(--gray);
+}
+
+.text_grayDark {
+    color: var(--gray-dark);
+}
+
+.text_grayMain {
+    color: var(--gray-main);
+}
+
+.text_grayPrimery {
+    color: var(--gray-primery);
+}
+
+.bg_main {
+    background-color: var(--main);
+}
+
+.bg_color {
+    background-color: var(--bg-color);
+}
+
+.bg_Nav {
+    background-color: var(--nav-bg);
+}
+
+@media (min-width:576.9px) {
+     :root {
+        --fs-xmd: 22px;
+        --fs-lg: 32px;
+    }
+}
+
+@media (min-width:767.9px) {
+     :root {
+        --fs-sm: 15px;
+        --fs-xmd: 24px;
+        --fs-lg: 44px;
+        --fs-xl: 38px;
+        --fs-xxl: 44px;
+    }
+}
+
+@media (min-width:991.9px) {
+     :root {
+        --fs-sm: 16px;
+        --fs-lg: 52px;
+        --fs-xl: 56px;
+        --fs-xxl: 70px;
+    }
+}
+
+@media (min-width:1199.9px) {
+     :root {
+        --fs-xl: 64px;
+        --fs-xxl: 80px;
+    }
+}
+
+
+/* @media (min-width:576.9px) {
+    
+} */
