@@ -4,8 +4,8 @@
     --fs-xmd: 18px;
     --fs-md: 32px;
     --fs-lg: 28px;
-    --fs-xl: 30px;
-    --fs-xxl: 38px;
+    --fs-xl: 32px;
+    --fs-xxl: 40px;
     /* color */
     --main: #0D0D0D;
     --black-primery: #15231F;
@@ -84,6 +84,8 @@
      :root {
         --fs-xmd: 22px;
         --fs-lg: 32px;
+        --fs-xl: 38px;
+        --fs-xxl: 46px;
     }
 }
 
@@ -93,7 +95,7 @@
         --fs-xmd: 24px;
         --fs-lg: 44px;
         --fs-xl: 38px;
-        --fs-xxl: 44px;
+        --fs-xxl: 42px;
     }
 }
 
@@ -101,8 +103,8 @@
      :root {
         --fs-sm: 16px;
         --fs-lg: 52px;
-        --fs-xl: 56px;
-        --fs-xxl: 70px;
+        --fs-xl: 48px;
+        --fs-xxl: 58px;
     }
 }
 
