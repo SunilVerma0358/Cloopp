@@ -48,10 +48,6 @@
     color: var(--main);
 }
 
-.text_black_primery {
-    color: var(--black-primery);
-}
-
 .text_primery {
     color: var(--primery);
 }
@@ -64,28 +60,12 @@
     color: var(--bg-color);
 }
 
-.text_NavBg {
-    color: var(--nav-bg);
-}
-
 .text_golden {
     color: var(--golden);
 }
 
-.text_gray {
-    color: var(--gray);
-}
-
-.text_grayDark {
-    color: var(--gray-dark);
-}
-
 .text_grayMain {
     color: var(--gray-main);
-}
-
-.text_grayPrimery {
-    color: var(--gray-primery);
 }
 
 .bg_main {
@@ -132,8 +112,3 @@
         --fs-xxl: 80px;
     }
 }
-
-
-/* @media (min-width:576.9px) {
-    
-} */

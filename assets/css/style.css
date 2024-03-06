@@ -1,3 +1,4 @@
+            @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Over+the+Rainbow&display=swap");
             @import url(./root.css);
             * {
                 margin: 0;
@@ -5,11 +6,6 @@
                 list-style-type: none !important;
                 box-sizing: border-box !important;
                 text-decoration: none !important;
-            }
-            
-            @font-face {
-                font-family: "Outfit";
-                src: url(../font/Outfit-Regular.ttf);
             }
             
             @font-face {
@@ -22,7 +18,7 @@
             }
             
             .ff_Outfit {
-                font-family: "Outfit";
+                font-family: "Outfit", sans-serif;
             }
             /*-------------------- preloader --------------------*/
             
@@ -131,10 +127,6 @@
                 max-width: 180px;
             }
             
-            .max_w_345 {
-                max-width: 345px;
-            }
-            
             .max_w_357 {
                 max-width: 357px;
             }
@@ -151,18 +143,6 @@
                 max-width: 560px;
             }
             
-            .max_w_513 {
-                max-width: 513px;
-            }
-            
-            .max_w_616 {
-                max-width: 616px;
-            }
-            
-            .max_w_675 {
-                max-width: 675px;
-            }
-            
             .max_w_957 {
                 max-width: 957px;
             }
@@ -171,10 +151,6 @@
                 max-height: 598px;
             }
             /*------------------ navbar------------------ */
-            
-            .object_fit_cover {
-                object-fit: cover;
-            }
             
             .flex_grow {
                 flex-grow: 1;
@@ -199,7 +175,7 @@
                 bottom: -6px;
                 background: var(--primery);
                 height: 2px;
-                transition: 0.3s;
+                transition: all linear 300ms;
             }
             
             .underline-hover:hover {
@@ -212,17 +188,13 @@
             }
             
             .crossLine1 {
-                transition: all linear 200ms;
                 rotate: 48deg;
-                transform: translateX(10px) translateY(8px);
-                background-color: var(--primery) !important;
+                transform: translateX(10.3px) translateY(8px);
             }
             
             .crossLine2 {
-                transition: all linear 200ms;
                 rotate: 123deg;
                 transform: translateX(-2px);
-                background-color: var(--primery) !important;
             }
             /* ------------------herosection------------------ */
             
@@ -235,14 +207,6 @@
                 bottom: 0;
                 left: 0;
                 right: 0;
-            }
-            
-            .h_120 {
-                height: 120px;
-            }
-            
-            .object_fit {
-                object-fit: cover;
             }
             /* ----------------greener-section ----------------*/
             
@@ -278,10 +242,11 @@
                 padding-left: 80px !important;
                 font-size: var(--fs-sm) !important;
                 font-weight: 400 !important;
-                font-family: var(--fs-sm) !important;
+                font-family: "Outfit", sans-serif !important;
             }
             
             .oneAcc .accordion {
+                max-width: 513px;
                 --bs-accordion-bg: var(--bg-color) !important;
                 --bs-accordion-color: var(--primery) !important;
                 --bs-accordion-btn-color: var(--primery) !important;
@@ -311,14 +276,14 @@
                 font-size: var(--fs-xmd) !important;
                 color: var(--bs-accordion-btn-color);
                 font-weight: 500 !important;
-                font-family: "Outfit" !important;
+                font-family: "Outfit", sans-serif !important;
             }
             /* -----------------twoaccordion----------------- */
             
             .twoAcc .accordion-button {
                 padding: 16px !important;
                 font-size: var(--fs-xmd) !important;
-                font-family: "Outfit" !important;
+                font-family: "Outfit", sans-serif !important;
                 font-weight: 600 !important;
                 color: var(--gray-dark) !important;
             }
@@ -341,10 +306,6 @@
             }
             
             .twoAcc .accordion {
-                --bs-accordion-color: var(--gray-dark) !important;
-                --bs-accordion-btn-color: var(--gray-dark) !important;
-                --bs-accordion-active-color: var(--gray-dark) !important;
-                --bs-accordion-border-color: var(--gray-primery) !important;
                 --bs-accordion-border-width: unset !important;
             }
             
@@ -355,7 +316,7 @@
                 padding-bottom: 16px !important;
                 font-size: var(--fs-sm) !important;
                 font-weight: 400 !important;
-                font-family: "Outfit" !important;
+                font-family: "Outfit", sans-serif !important;
                 color: var(--gray-dark) !important;
                 max-width: 758px !important;
             }
@@ -391,7 +352,6 @@
             
              ::placeholder {
                 color: var(--nav-link);
-                font-family: "Outfit";
             }
             /* ---------------footer--------------- */
             
@@ -425,8 +385,20 @@
             }
             /* ------------------ellipse------------------ */
             
-            .z_1 {
-                z-index: 2;
+            .mh_140 {
+                max-height: 140px;
+            }
+            
+            .mh_158 {
+                max-height: 158px;
+            }
+            
+            .mh_121 {
+                max-height: 121px;
+            }
+            
+            .mix_blend {
+                mix-blend-mode: "plus-lighter";
             }
             
             .arrowHero {
@@ -458,6 +430,7 @@
                 left: 0;
                 right: 0;
                 top: 0;
+                max-height: 121px;
             }
             
             .bottomEllips {
@@ -501,7 +474,7 @@
             .inputrightImg {
                 position: absolute;
                 right: 0;
-                bottom: 0%;
+                bottom: 0;
                 z-index: -2;
                 max-width: 200px;
             }
@@ -532,7 +505,6 @@
                     justify-content: center;
                     transition: all 400ms linear;
                     z-index: 2;
-                    padding: 12px 0px;
                 }
                 .show {
                     right: 0%;
